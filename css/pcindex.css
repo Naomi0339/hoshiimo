@@ -1,0 +1,136 @@
+@media (min-width: 1024px) {
+  /* PCのみで現れるところここから */
+  .header_container {
+    display: block;
+  }
+  .header_container_navi_top_menu {
+    display: none;
+  }
+  .header_container_top_menu_logo {
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  .header_container_top_menu {
+    float: left;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+    z-index: 99999;
+  }
+  .pc_top_title {
+    float: left;
+  }
+  .slider-item {
+    height: 763px;
+  }
+
+  /* PCのみでトップをスクロールしたらposition:fixして横並びになるナビゲーション部分ここから */
+  .header_container_navi_top_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    position: fixed;
+    /* display: none; */
+    width: 100%;
+    z-index: 999999;
+  }
+
+  .header_container_navi_top_menu_logo img {
+    width: 90%;
+  }
+  .header_container_navi_top_menu_li p {
+    color: white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 2em;
+  }
+
+  .slick-prev {
+    /*戻る矢印の位置と形状*/
+    display: none;
+  }
+
+  .slick-next {
+    /*次へ矢印の位置と形状*/
+    opacity: 0;
+  }
+  .slick-next.slick-arrow {
+    display: none;
+  }
+  .menu_opener,
+  .top_title {
+    display: none;
+  }
+  #news {
+    background-image: url(../images/potato-background2-pc.png);
+    background-size: 100%;
+    margin-bottom: 0;
+    margin-top: 18%;
+    /* padding: 10% 10%; */
+  }
+  .news_container_img img {
+    width: 500px;
+  }
+  .pc_block {
+    height: 250px;
+    margin-top: 3%;
+  }
+  .news_wrapper2 {
+    margin-right: 5%;
+  }
+  .news_title img,
+  #about img {
+    width: 20%;
+  }
+  #about {
+    background-image: none;
+    margin-left: 3%;
+    padding: 0;
+  }
+  .pc_flex {
+    display: flex;
+  }
+  .pc_flex img {
+    width: 50%;
+  }
+
+  #about p {
+    font-size: 2em;
+    margin-left: 5%;
+  }
+  .pc_block p {
+    font-size: 1.5em;
+  }
+  #farm {
+    background-image: url("../images/farmpc.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat;
+        background-position: left;
+        width: 100vw;
+        height: 400px;
+        padding: 20px; */
+  }
+  #access {
+    margin: 0 10%;
+  }
+  #access p {
+    width: 120%;
+    margin-right: 0;
+  }
+  .access_title_img {
+    width: 30%;
+  }
+  #q_and_a {
+    background-size: 700px;
+  }
+  footer {
+    padding: 0;
+    padding-top: 2%;
+  }
+  .SNS,
+  .footer_information,
+  .contact {
+    width: 30%;
+  }
+}

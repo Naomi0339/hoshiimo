@@ -1,0 +1,63 @@
+.article_news_wrapper {
+  margin: 7% 10%;
+}
+.article_title {
+  text-align: center;
+}
+.subpage_header_container_navi_top_menu {
+  display: none;
+}
+
+/* ここからタブレットサイズ */
+@media (min-width: 768px) {
+  .article_news_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .article_news_wrapper {
+    width: 40%;
+    margin: 3%;
+  }
+}
+
+/* ここからPCサイズ */
+@media (min-width: 1024px) {
+  .article_news {
+    margin-top: 10%;
+  }
+  .article_title {
+    text-align: left;
+  }
+  .article_news_flex {
+    display: block;
+  }
+  .article_news_wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .article_news_block {
+    display: block;
+    width: 50%;
+    margin-left: 10%;
+  }
+  .article_news_block h3 {
+    font-size: 3em;
+    padding-top: 5%;
+  }
+  .article_news_block p {
+    font-size: 1.5em;
+    margin-right: 5%;
+  }
+  .subpage_header_container_navi_top_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    top: 0;
+  }
+}

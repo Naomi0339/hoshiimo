@@ -1,0 +1,142 @@
+@charset "utf-8";
+@media (min-width: 768px) {
+  .menu_background {
+    width: 100px;
+    height: 100px;
+  }
+  .openbtn1 {
+    width: 150px;
+    height: 150px;
+    margin-top: 2%;
+  }
+  .openbtn1 span:nth-of-type(2) {
+    top: 30px;
+  }
+  .openbtn1 span:nth-of-type(3) {
+    top: 48px;
+  }
+  .openbtn1 span {
+    height: 5px;
+  }
+  .top_title img {
+    width: 70%;
+  }
+  #news {
+    background-image: url(../images/potato-background2-768.png);
+    background-size: 160%;
+    margin-bottom: 0;
+    padding: 10% 10%;
+  }
+  .news_title img {
+    width: 50%;
+  }
+  .news_container_img img {
+    width: 300px;
+  }
+  .pc_block {
+    display: block;
+    margin-left: 5%;
+    background-color: #fff;
+  }
+  .pc_block h3 {
+    background-color: #fff;
+  }
+  .pc_block p {
+    font-size: 1.3em;
+  }
+  .news_flex {
+    display: none;
+  }
+  /* NEWSの画像をhoverしたら拡大 */
+  .news_container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .news_container_img {
+    margin-top: 5%;
+    overflow: hidden; /*これを記述することではみ出た部分を非表示にします。 */
+  }
+  .news_container_img img {
+    transition: 1s all;
+  }
+  .news_container_img img:hover {
+    transform: scale(1.2, 1.2);
+    transition: 1s all;
+  }
+
+  .news_wrapper2 {
+    margin-top: 5%;
+  }
+  #about {
+    background-image: url("../images/potato-background-768.png");
+    margin-left: 3%;
+  }
+  .about_container_img img{
+    width:40%;
+  }
+  #about p {
+    font-size: 1.5em;
+  }
+  #farm h2 {
+    font-size: 4em;
+  }
+  #farm p {
+    font-size: 1.6em;
+    padding: 0 10%;
+  }
+  #about {
+    margin-top: 3%;
+  }
+  .access_flex_notmobile {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+  .access_title {
+    font-size: 2em;
+    padding: 0;
+  }
+  .access_flex {
+    justify-content: space-between;
+  }
+  .accordion-container {
+    margin: 50px auto 0;
+    max-width: 600px;
+    width: 100%;
+  }
+  .accordion-title {
+    font-size: 2em;
+  }
+  .accordion-text {
+    font-size: 1.5em;
+  }
+  #q_and_a {
+    padding-bottom: 10%;
+    height: 600px;
+  }
+  .q_and_a_title {
+    text-align: center;
+  }
+  .q_and_a_title img {
+    width: 80%;
+  }
+  .button_solid021 a {
+    max-width: 500px;
+    font-size: 2.5em;
+  }
+  .button_solid021 a:after {
+    width: 15px;
+    height: 15px;
+    right: 10%;
+  }
+  footer {
+    font-size: 1.2em;
+  }
+  .footer_container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .SNS {
+    width: 30%;
+  }
+}
